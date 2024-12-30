@@ -10,8 +10,8 @@
 
 <HeaderComponent />
 
-<img id="pivoine-left" src={PivoineLeft} />
-<img id="pivoine-up-right" src={PivoineUpRight} />
+<img id="pivoine-left" src={PivoineLeft} alt="élément décor pivoine gauche" />
+<img id="pivoine-up-right" src={PivoineUpRight} alt="élément décor pivoine droite" />
 
 <main id="app">
     <slot />

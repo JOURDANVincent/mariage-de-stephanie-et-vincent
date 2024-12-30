@@ -16,8 +16,8 @@
     <h3>Orange & Terrcotta</h3>
 
     <div class="img-box">
-        <img src={Theme1} />
-        <img src={Theme2} />   
+        <img src={Theme1} alt="thème terracotta et orange 1" />
+        <img src={Theme2} alt="thème terracotta et orange 2" />   
     </div> 
 
 </section>
