@@ -1,17 +1,17 @@
 <script lang="ts">
 
-    import HeaderComponent from "../lib/components/Header.svelte";
-    import FooterComponent from "../lib/components/Footer.svelte";
+    import HeaderComponent from "$lib/components/Header.svelte";
+    import FooterComponent from "$lib/components/Footer.svelte";
 
-    import PivoineUpRight from "/images/png/pivoine_up_right.png";
-    import PivoineLeft from "/images/png/pivoine_left.png";
+    import PivoineUpRight from "$lib/assets/png/pivoine_up_right.png";
+    import PivoineLeft from "$lib/assets/png/pivoine_left.png";
 
 </script>
 
 <HeaderComponent />
 
-<img id="pivoine-left" src={PivoineLeft} alt="élément décor pivoine gauche" />
-<img id="pivoine-up-right" src={PivoineUpRight} alt="élément décor pivoine droite" />
+<img id="pivoine-left" src={PivoineLeft} />
+<img id="pivoine-up-right" src={PivoineUpRight}  />
 
 <main id="app">
     <slot />
