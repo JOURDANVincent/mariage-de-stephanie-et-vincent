@@ -1,0 +1,102 @@
+@font-face {
+    font-family: greatvibes;
+    src: url('../fonts/GreatVibes-Regular.ttf');
+    /* font-weight: normal; */
+    font-display: swap;
+}
+@font-face {
+    font-family: simonetta;
+    src: url('../fonts/Simonetta-Regular.ttf');
+    /* font-style: normal; */
+    font-display: swap;
+}
+@font-face {
+    font-family: shadows;
+    src: url('../fonts/ShadowsIntoLight-Regular.ttf');
+    /* font-style: normal; */
+    font-display: swap;
+}
+@font-face {
+    font-family: tangerine;
+    src: url('../fonts/Tangerine-Regular.ttf');
+    /* font-style: normal; */
+    font-display: swap;
+}
+
+html {
+    position: absolute;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: absolute;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    padding-inline: 12px;
+    font-family: simonetta;
+    color: #999;
+    background-color: #f8f6ef;
+    text-align: center;
+}
+
+section {
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    max-width: 800px;
+    margin-inline: auto;
+    padding-top: 24px;
+    padding-inline:18px;
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+    background-color: transparent;
+    background: #f8f6efcc;
+    background: #fffc;
+    border: 1px solid #cd906150;
+    box-shadow: 1px 1px 5px 1px #cd906140;
+    border-radius: 6px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    font-family: shadows, tangerine, greatvibes;
+    font-weight: 400;
+    color: #cd9061;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.4em;
+    margin-bottom: 24px;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover, button:hover {
+    cursor: pointer;
+}
