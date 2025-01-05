@@ -59,12 +59,11 @@ section {
     padding-inline: 18px;
     padding-bottom: 32px;
     margin-top: 32px;
-    background-color: transparent;
-    background: #f8f6efcc;
     background: #fffc;
     border: 1px solid #cd906150;
     box-shadow: 1px 1px 5px 1px #cd906140;
     border-radius: 6px;
+    scroll-margin-top: 70px;
 }
 
 h1, h2, h3, h4, h5, h6 {
