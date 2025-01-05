@@ -1,0 +1,1 @@
+var s;const t=((s=globalThis.__sveltekit_1nuiwot)==null?void 0:s.base)??"/mariage-de-stephanie-et-vincent";var e;const a=((e=globalThis.__sveltekit_1nuiwot)==null?void 0:e.assets)??t;export{a,t as b};
